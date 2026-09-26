@@ -1,0 +1,1238 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01C8C9592BCC164BF4EA08EE /* phoneme_h.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D216308273F805157AF12ED /* phoneme_h.wav */; };
+		0243D3998F076F9B6E70AAA9 /* ParentalGateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D0B098EE3559B0223029AC /* ParentalGateView.swift */; };
+		037B7D28B8F89CC8D12FA17F /* phoneme_ue.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB6AD3F6FF828FDE42F2EF9C /* phoneme_ue.wav */; };
+		03E55EC51D75F2222C40973A /* SoundFXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0902F2BE8A2FCC8171B65C11 /* SoundFXTests.swift */; };
+		0498B6398708B9B130C0AC1F /* AudioBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C9B8DAEECD7C13FE0C939C /* AudioBank.swift */; };
+		04D082B7F27B6BF9803D854F /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193EE1B10C0D76491C4C3157 /* MusicPlayer.swift */; };
+		07B3B59F782B2EC508884789 /* phoneme_r.wav in Resources */ = {isa = PBXBuildFile; fileRef = 543D9D0F93D708888985F30B /* phoneme_r.wav */; };
+		085D9FF63F5C17A2E4C1E7F6 /* phoneme_de_er.wav in Resources */ = {isa = PBXBuildFile; fileRef = 38FB450E4C0B3F11F26907D7 /* phoneme_de_er.wav */; };
+		098CF6C1377CAAEA232832F5 /* phoneme_fr_wa.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2269D6F9BC44EC3958CBB51 /* phoneme_fr_wa.wav */; };
+		0A285ABD0EC57EB95FB7B370 /* phoneme_m.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2C6F1B9D12C82552A53690D4 /* phoneme_m.wav */; };
+		0F2CDE0F2ED70E92BDBD840A /* LanguagePacksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070429016E66D4361C0F59A4 /* LanguagePacksTests.swift */; };
+		11264E725B9D3DBB871B8EDE /* phoneme_fr_on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92BB4A2094256195362BD6FB /* phoneme_fr_on.wav */; };
+		114E2007F7C61E0847DF8C30 /* mnem_l.png in Resources */ = {isa = PBXBuildFile; fileRef = F992BECB4610D9A919229FA7 /* mnem_l.png */; };
+		12417667C85AB3C8FE94F05B /* MouthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF639D201AAE4556A175284 /* MouthView.swift */; };
+		12E0A90AD2804A8336056330 /* WorldLessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9B401D1370E1E90FC0F878 /* WorldLessonView.swift */; };
+		13A8FA77FA53761B85702086 /* phoneme_aw.wav in Resources */ = {isa = PBXBuildFile; fileRef = 973223A1C3873ED2CFB5EF5B /* phoneme_aw.wav */; };
+		14E019A08CD677ACB24DD310 /* phoneme_x.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B01AAD3B68FE67B6F25CEE8 /* phoneme_x.wav */; };
+		1514A641CE8398FCA0872CAC /* phoneme_es_u.wav in Resources */ = {isa = PBXBuildFile; fileRef = 67F35ABCAFE0B8AEC3DD7E02 /* phoneme_es_u.wav */; };
+		1533D83958CE75A58901C106 /* CurriculumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C88CCDB405DBC64520267C /* CurriculumTests.swift */; };
+		19615DF6C41DF0A5FA641AC1 /* phoneme_z.wav in Resources */ = {isa = PBXBuildFile; fileRef = E9F9A625131EB98BAEB13073 /* phoneme_z.wav */; };
+		1CC471CF0C80B58AA1ABF45B /* LetterLand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AD99B1624370F8A2CB085A /* LetterLand.swift */; };
+		1D28FE1FFA7BE219FD98F58E /* AppEnv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE2819CCDE8905C2A268F1 /* AppEnv.swift */; };
+		1DFFBD17895D780C9AA4EABA /* GermanWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2C65B269F183EADEEEFD82 /* GermanWords.swift */; };
+		1F1D32D85D8E7A2F40758345 /* ui_sayitwithme.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4CF6A74B36DE2843DE909D9 /* ui_sayitwithme.wav */; };
+		2272DE949E3C159E11C691C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE33CB6303DE0755A9C6AC4A /* ContentView.swift */; };
+		234B8FB6087E288907B7A823 /* phoneme_u.wav in Resources */ = {isa = PBXBuildFile; fileRef = 158D8397FAF814E7AD8BEEEC /* phoneme_u.wav */; };
+		25D1156D5DC5F7524756CAE3 /* SpanishLand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E97087323A9305B157EA6F2 /* SpanishLand.swift */; };
+		2652B2DA51EAB1C382000503 /* phoneme_el_e.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2AECB66F0EF426A8C2CB08E3 /* phoneme_el_e.wav */; };
+		28125A4F80D6E67D4B7B04B6 /* phoneme_o.wav in Resources */ = {isa = PBXBuildFile; fileRef = D61390E6A92E04E652669FD5 /* phoneme_o.wav */; };
+		2A6748F67503EC06378B7336 /* phoneme_d.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0665D799C94AB49741BBCF29 /* phoneme_d.wav */; };
+		2A6A33DDE83EE0DA13F6636A /* mnem_y.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EE179E6A792738DA68170E2 /* mnem_y.png */; };
+		2B4A93181D12DB0047667B65 /* phoneme_uk_oa.wav in Resources */ = {isa = PBXBuildFile; fileRef = C21B1AC5D65EDACCEEDE546B /* phoneme_uk_oa.wav */; };
+		2CCF743526AE3A8B5B3C755B /* phoneme_uk_ar.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0AFAF19C5D8467B0C83B2661 /* phoneme_uk_ar.wav */; };
+		2FB435BD9C9D92446A33267B /* phoneme_de_u_short.wav in Resources */ = {isa = PBXBuildFile; fileRef = 69266A815DA899F67AA56748 /* phoneme_de_u_short.wav */; };
+		320AAE263BA57465CE5E0A11 /* phoneme_uk_ure.wav in Resources */ = {isa = PBXBuildFile; fileRef = FFB1ABEE995DD448EF2F1BE8 /* phoneme_uk_ure.wav */; };
+		3550E468ABCF213D8BB76416 /* ui_whoreading.wav in Resources */ = {isa = PBXBuildFile; fileRef = 69ECEEC9EDB87C9ED238BFDD /* ui_whoreading.wav */; };
+		3BEB83BA24DC59F0E57E900B /* WorldLessonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14050FF2878E587DB80A09 /* WorldLessonTests.swift */; };
+		3BFDF6FEA104A60E8EA5AE15 /* CelebrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08862604124E2BB0CBA4C41F /* CelebrationView.swift */; };
+		3C1549C16CCA24C479519892 /* mnem_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 5266F7396FFFA2F12D3DBE67 /* mnem_n.png */; };
+		3CC4A3B226137EE5CD2BE7F2 /* phoneme_schwa.wav in Resources */ = {isa = PBXBuildFile; fileRef = AFEEAB753A79E6285FAC4F31 /* phoneme_schwa.wav */; };
+		3E34435D16E1819CA099BC3D /* WordFamilies.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1E6A1C9AC8F170739C185C /* WordFamilies.swift */; };
+		3E95EC605C7B8A7BCB6D5CCC /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16C7EAAF980DD933B529F18 /* SpeechManager.swift */; };
+		3EE4693BB9EF8036ED3BEC9F /* SpanishWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931694C7C13281788CFF0450 /* SpanishWords.swift */; };
+		3FB63F891BA48A54026A3F93 /* ReadRocketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79A4AC638FD3B560BFD11FA /* ReadRocketUITests.swift */; };
+		41B8AD4D48E7B1A02A5C3107 /* phoneme_rr.wav in Resources */ = {isa = PBXBuildFile; fileRef = C5CD681E9B72605E580BED25 /* phoneme_rr.wav */; };
+		4286CCE22579708AC2CD83BD /* Critter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1C34334056A74E67B219AF /* Critter.swift */; };
+		43B332A00E6043418951A2BF /* Blending.swift in Sources */ = {isa = PBXBuildFile; fileRef = C324A52B619B2CAB00609063 /* Blending.swift */; };
+		491C50D73EBB3618A5B309C1 /* phoneme_el_gh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29B15CBA0DDB38FEA023A800 /* phoneme_el_gh.wav */; };
+		4946C22E6F61E822A7C240C4 /* ProfileStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D804FDBD4B9CA7FB134BB5 /* ProfileStoreTests.swift */; };
+		4CA4AD70CCA9A3C4CC99CA21 /* MnemonicArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC96F3039A7F1BD324DC531F /* MnemonicArt.swift */; };
+		4CA9C4CF014FF9F6E2BB305C /* phoneme_de_i_long.wav in Resources */ = {isa = PBXBuildFile; fileRef = 61C243C61E88B0413B17AE13 /* phoneme_de_i_long.wav */; };
+		4D2BE70238CB6004ACCD39CC /* phoneme_fr_in.wav in Resources */ = {isa = PBXBuildFile; fileRef = B9B560A0D6940348B1D67B22 /* phoneme_fr_in.wav */; };
+		4F03D5B20220156DEEDE26B8 /* ui_belly.wav in Resources */ = {isa = PBXBuildFile; fileRef = A63FDDCAF2A14584C26F56FC /* ui_belly.wav */; };
+		512C95694339515FECE22F12 /* SoundCheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC06978086EBDA7892EFC39 /* SoundCheckView.swift */; };
+		5582E257AED0DB2EB4966E7A /* phoneme_v.wav in Resources */ = {isa = PBXBuildFile; fileRef = 24562FD0F3E48BE8696C5C48 /* phoneme_v.wav */; };
+		5618A03E001C254FD646DE85 /* PosterScenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361373E62A670A5CECB5EBBC /* PosterScenes.swift */; };
+		563235CA77D27CD798AF9461 /* PortugueseWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0215E7D61825C231494A3A5F /* PortugueseWords.swift */; };
+		56FF70CA0D5E1AC83D213E73 /* GreekLandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FE0B50616DA820F0565C9F /* GreekLandTests.swift */; };
+		57EFFAC973A736579D929034 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2EF88DB176ADA673DF134C /* MapView.swift */; };
+		590A667EAE3E0A2D092B67B1 /* LanguagePack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF08D3D92DBB922062B798B /* LanguagePack.swift */; };
+		594BFFEF4052DBC67A4A7B56 /* phoneme_el_a.wav in Resources */ = {isa = PBXBuildFile; fileRef = C192162775915087CD3CBD76 /* phoneme_el_a.wav */; };
+		5AA0F691270B52BD5605FDB3 /* mnem_q.png in Resources */ = {isa = PBXBuildFile; fileRef = 230757AEA6B095541A9B76E0 /* mnem_q.png */; };
+		5BAF26C1B54A31D9F41B56C5 /* FrenchLand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A5E42138C50DB58B03AD1 /* FrenchLand.swift */; };
+		5DF70D11BEF98ADBE515784A /* phoneme_w.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7580676C954705772A8C7EFB /* phoneme_w.wav */; };
+		5E6E05951B2467ABCCAEE6C2 /* phoneme_pt_aej.wav in Resources */ = {isa = PBXBuildFile; fileRef = D41207D132531D263A44B2D1 /* phoneme_pt_aej.wav */; };
+		6092B128FB4F7F66209B3625 /* phoneme_el_dh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 834BCB071B431AB4C8AC2791 /* phoneme_el_dh.wav */; };
+		63025AD8D90F85A5EDFAC213 /* phoneme_s.wav in Resources */ = {isa = PBXBuildFile; fileRef = 85BCB3D7C9BEA86E18412769 /* phoneme_s.wav */; };
+		6552583B0102779D8E78FD00 /* phoneme_i.wav in Resources */ = {isa = PBXBuildFile; fileRef = 786E13549B09BDEBE72DF86D /* phoneme_i.wav */; };
+		679C4FE41CE24E5462934BEB /* Phonology.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CC5E79C25EF6FFE52445BD /* Phonology.swift */; };
+		6A06538E882E28DA4F5457C7 /* MosaicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BB7F0F3C0123E36771E4F5 /* MosaicView.swift */; };
+		6AF938750D7ABA27090026E4 /* phoneme_kv.wav in Resources */ = {isa = PBXBuildFile; fileRef = FF98B4770C8235DCF89C0B3B /* phoneme_kv.wav */; };
+		6D832FE5E324418779B7F769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2018CFE2BCE2AC13FAC16AE9 /* Assets.xcassets */; };
+		706DBDE996C3341E4913C924 /* ui_tryagain.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5C749B777FD05CC8B5454D0F /* ui_tryagain.wav */; };
+		71C4D26B01C746F654A56295 /* mnem_g.png in Resources */ = {isa = PBXBuildFile; fileRef = B258DF015AE439F92CC03F1C /* mnem_g.png */; };
+		734B0ACFE29F6413ECC920EF /* phoneme_n.wav in Resources */ = {isa = PBXBuildFile; fileRef = 72FB02AB7F72F70097BD8A03 /* phoneme_n.wav */; };
+		734C358BCD53FA0D404C07EE /* phoneme_de_e_long.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3224554E0CE19A859E4A63DF /* phoneme_de_e_long.wav */; };
+		7406CC4BA25407A3A9C0D02F /* phoneme_el_x.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1CF993C1D458CEA0C4540A95 /* phoneme_el_x.wav */; };
+		773A638FE1CC2CB7BEA84881 /* phoneme_es_y.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6FABCFAE4A779860FF36CA64 /* phoneme_es_y.wav */; };
+		79851537EBE30D9E4C15E927 /* phoneme_uk_o.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4E3CB35962580FDE017DDF8E /* phoneme_uk_o.wav */; };
+		7CB51DDD9D240F1F4CD628CA /* PlacementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF33005D652048D286F46C0 /* PlacementView.swift */; };
+		7DB126B7F5052C04E789DE5E /* mnem_d.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C73122BE2D4F2ABF675EDF5 /* mnem_d.png */; };
+		7E0D69F373299056E9D5BC68 /* phoneme_de_a_long.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5B257D2A8D09FB4701DB44C4 /* phoneme_de_a_long.wav */; };
+		80CB7999BB777BEB878F8C31 /* phoneme_es_r.wav in Resources */ = {isa = PBXBuildFile; fileRef = C1F0D57DF6D52825F0754953 /* phoneme_es_r.wav */; };
+		828F0C1CFF3E8D53C18E4960 /* SliceSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC65CB5279EEF18662EFA4 /* SliceSceneView.swift */; };
+		840B6E79A40DF2010311B033 /* SpanishLandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C51935DABBC847B850E812 /* SpanishLandTests.swift */; };
+		8415DB062740D75B812641C1 /* mnem_m.png in Resources */ = {isa = PBXBuildFile; fileRef = 01079F44854D491B2561641C /* mnem_m.png */; };
+		8485C51F95904051935AA7DC /* ReviewLessons.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A45E6E0871DFC6DCB917A /* ReviewLessons.swift */; };
+		87D7ED3C17F0F1201C6A09A6 /* phoneme_el_th.wav in Resources */ = {isa = PBXBuildFile; fileRef = C5E8A3292534EFE40EBE0069 /* phoneme_el_th.wav */; };
+		8B5C016562EA8AB9477F05D2 /* phoneme_t.wav in Resources */ = {isa = PBXBuildFile; fileRef = 81D79B5A1EED65DF80C675BF /* phoneme_t.wav */; };
+		8CC6C930556C232202125121 /* ReadRocketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD8398EF41AEFC868786388 /* ReadRocketApp.swift */; };
+		8D4D202699EEEC317E509851 /* Flex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E0229B4E43A45C197FE226 /* Flex.swift */; };
+		8D5351235213C750C487183F /* music_flow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ED6A61DE4C0DC56CB4C66731 /* music_flow.m4a */; };
+		8DE2D4E560E7B06A31731937 /* phoneme_l.wav in Resources */ = {isa = PBXBuildFile; fileRef = F429AB32A6E178B7573CCD18 /* phoneme_l.wav */; };
+		90B2FE20B1F3EBD8F25EA5D0 /* phoneme_j.wav in Resources */ = {isa = PBXBuildFile; fileRef = A5533FED8E29BB5A633C8434 /* phoneme_j.wav */; };
+		91775E41605066FFD2B96BF5 /* mnem_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 08DA79BED2536A3A3F313C60 /* mnem_s.png */; };
+		91C13476C5FA4E695E192D16 /* phoneme_b.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D21B2761AFF1158CF5AFF40 /* phoneme_b.wav */; };
+		93769BE3B39286818D90AB58 /* phoneme_k.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5EC9B26CECD7B3CEBB278D41 /* phoneme_k.wav */; };
+		942FA1A72CB63E2017E5E3AC /* LetterStrokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F9A0FCD71F4D26A0583898 /* LetterStrokes.swift */; };
+		95AFD27C7A2F5C47B0738801 /* phoneme_qu.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6557B266BF38142B97542E7D /* phoneme_qu.wav */; };
+		95C613B8F8B48779E390E504 /* phoneme_fr_oe.wav in Resources */ = {isa = PBXBuildFile; fileRef = EA73F43434C7AA85D1F22B20 /* phoneme_fr_oe.wav */; };
+		96FCD252DEEDC4DF8F5D80CC /* Phonics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB703D1F8154CF4301FBB8 /* Phonics.swift */; };
+		985150858D5DB64AFF8412BF /* phoneme_p.wav in Resources */ = {isa = PBXBuildFile; fileRef = E221BEE807DC82CCC062DBE8 /* phoneme_p.wav */; };
+		99E6EC64D94ADB00E19D5DF9 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB8AA7A833CB52994EB6095 /* LibraryView.swift */; };
+		9FBFBCF9725494BDED936B86 /* mnem_v.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3EDFB66DA03B6E452B5B17 /* mnem_v.png */; };
+		A156AC5F6057E0C98D37E33C /* phoneme_de_u_long.wav in Resources */ = {isa = PBXBuildFile; fileRef = E67418392DE13240D03821C7 /* phoneme_de_u_long.wav */; };
+		A19862F8B5DCDDD0C21430A7 /* mnem_k.png in Resources */ = {isa = PBXBuildFile; fileRef = 21004B9DA3233426DF4FD6BA /* mnem_k.png */; };
+		A3B2F720B5689C55D19CDADB /* StickerGiftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18BB450BEDA968B248B26CE /* StickerGiftView.swift */; };
+		A487055D99FC4CCC0AF73BED /* mnem_w.png in Resources */ = {isa = PBXBuildFile; fileRef = 135E43B8ED51614ADB0AE453 /* mnem_w.png */; };
+		A76D6F6ED0EF1F107353C904 /* GermanLand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D753FF0E4FFB35A0AA34A3FA /* GermanLand.swift */; };
+		A7AA48FDD4EB626CE54D81BE /* LessonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03E59C149ADE3CC8DAB3193 /* LessonViewModel.swift */; };
+		A8859AEA5268181C29B9F3F8 /* mnem_r.png in Resources */ = {isa = PBXBuildFile; fileRef = B92CD9E34F6DC850710087F8 /* mnem_r.png */; };
+		A9001350FB21913660C7C7E0 /* mnem_j.png in Resources */ = {isa = PBXBuildFile; fileRef = EDBDDF3F0A650D18C79F7232 /* mnem_j.png */; };
+		A9C9EDC20B33EA3C7A23903B /* music_beach.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 65597DF92A19122C75E15376 /* music_beach.m4a */; };
+		AF8B3DED3642B9F8D1C7F378 /* phoneme_sh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 202E062E516338E09CCABEB4 /* phoneme_sh.wav */; };
+		B0AE207A357C700D9112D2A4 /* SoundFX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB1C906BEA33D1605705971 /* SoundFX.swift */; };
+		B0D9A3ABE7BC8CF4F19179C1 /* ui_diaper.wav in Resources */ = {isa = PBXBuildFile; fileRef = A8C3B8F8F5630CAED6A506C8 /* ui_diaper.wav */; };
+		B3609A67E72F7A61D93F4422 /* mnem_e.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F1E21E2BABD9DC73B5942D /* mnem_e.png */; };
+		B3F668EFCC56DD9214773A6A /* mnem_x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7EB973AAD3434C480F16B57 /* mnem_x.png */; };
+		B45F5DC36E42892C60ABF629 /* phoneme_es_ny.wav in Resources */ = {isa = PBXBuildFile; fileRef = D36DF0EE047D390A6EC6811F /* phoneme_es_ny.wav */; };
+		B4A0CBC2C2D867266F54D649 /* ui_blastoff.wav in Resources */ = {isa = PBXBuildFile; fileRef = 35A1E729F31E4C135ADDF99D /* ui_blastoff.wav */; };
+		B7709D543375AA04A0927801 /* phoneme_y.wav in Resources */ = {isa = PBXBuildFile; fileRef = DE3EC5F538AB30960C95C04A /* phoneme_y.wav */; };
+		B87D9B567B707522F627C0D6 /* phoneme_uk_er.wav in Resources */ = {isa = PBXBuildFile; fileRef = F5AC1A43C4794D2EC3366E15 /* phoneme_uk_er.wav */; };
+		B93698278C146EB13D4B500E /* phoneme_a.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8AAE45FBFCFF49CB8A9C8FB7 /* phoneme_a.wav */; };
+		B98312B10F68BB75516A64E2 /* music_farm.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 97C584E1E6819762A374D6E4 /* music_farm.m4a */; };
+		B9AF84690EA2221B79BDF7C7 /* phoneme_el_i.wav in Resources */ = {isa = PBXBuildFile; fileRef = 366C43C2309F7758A854102E /* phoneme_el_i.wav */; };
+		B9F2395A7C6AB8DFFED53057 /* phoneme_e.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7A271427677C7FE80F7BF76F /* phoneme_e.wav */; };
+		BA9332698C3997A430DEE871 /* Placement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96927ED3E35069E024783022 /* Placement.swift */; };
+		BCA271F6CC613D51B23F2950 /* mnem_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CAFB752BF1956DF050076BC /* mnem_h.png */; };
+		BD9C5040E73E91971DF3BA85 /* mnem_b.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E9F37BE7C3D6C2F77D03FD /* mnem_b.png */; };
+		BDA9E5C7864FB910CE2FE7F0 /* phoneme_zh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3A8A465191C60EFB3159AB2C /* phoneme_zh.wav */; };
+		BFC40CD812C36229E5294FC7 /* phoneme_el_o.wav in Resources */ = {isa = PBXBuildFile; fileRef = 728D39DC0E9E72ACE587528E /* phoneme_el_o.wav */; };
+		C1923801AF3D1B89DD5911D8 /* phoneme_ts.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C8251BB134CB454F486444B /* phoneme_ts.wav */; };
+		C1DCAAC50C1419819346484A /* StickerBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC9EFAAB7C6CA0BE3887158 /* StickerBookView.swift */; };
+		C2BEB620441A3EC57B87F10C /* FrenchWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B58A8CD2FAF0237A464F8E /* FrenchWords.swift */; };
+		C424117395B64FA4CE196902 /* mnem_u.png in Resources */ = {isa = PBXBuildFile; fileRef = 797A0C2657B1F321B9E62322 /* mnem_u.png */; };
+		C4EAD89D71C09F7B64AF72E4 /* GreekLand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DD04AAE456F5532ACC4500 /* GreekLand.swift */; };
+		C4F1D7B279B9B9E2DE6E2894 /* mnem_p.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF555900855697B0D62544E /* mnem_p.png */; };
+		C55D4B18A9535C8C6665965A /* mnem_o.png in Resources */ = {isa = PBXBuildFile; fileRef = 563248B04A7F9FD205A415B9 /* mnem_o.png */; };
+		C81740F9124D0830763FDF1B /* EnglishUKWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A56102428456D3BE39474B7 /* EnglishUKWords.swift */; };
+		C8764A4A8A66213A726729DB /* EnglishUKLand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F31E1A0844F545B885A99C /* EnglishUKLand.swift */; };
+		C9A54F6F0A10F340E333B4AA /* phoneme_pt_aow.wav in Resources */ = {isa = PBXBuildFile; fileRef = BDF7BF4C62CF7CC741C62654 /* phoneme_pt_aow.wav */; };
+		CADB3BB58078F8CA25F20CCA /* PortugueseLand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E48FE33B7C757B9E9E2E48 /* PortugueseLand.swift */; };
+		CC62E170A33011742A1F0B78 /* BookReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1194262A76EB58045D576FB /* BookReaderView.swift */; };
+		D10B0431A815B66B298E791C /* mnem_c.png in Resources */ = {isa = PBXBuildFile; fileRef = A3BDE526E4F1738D2F354E0C /* mnem_c.png */; };
+		D492CCDC10A73921F556E19B /* Curriculum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1508944ED3740B0F85D58980 /* Curriculum.swift */; };
+		D8EC03EE584F20CFE5251FCC /* mnem_f.png in Resources */ = {isa = PBXBuildFile; fileRef = C1B302E151445F7C6FF7DF0D /* mnem_f.png */; };
+		D9C20501126251B1E2A3B182 /* phoneme_el_ps.wav in Resources */ = {isa = PBXBuildFile; fileRef = 95E5057E72A8109D566E9A74 /* phoneme_el_ps.wav */; };
+		DC8679037332D3402FF8FAF2 /* mnem_i.png in Resources */ = {isa = PBXBuildFile; fileRef = 00DAA2BE6220FE1CCE25B7BB /* mnem_i.png */; };
+		DD9796CE1818FFB3DFB54E75 /* PlacementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF2C4610728FF7183F0855A /* PlacementTests.swift */; };
+		DFB2952B7D848D80A877E640 /* mnem_a.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A069AF88102384783F35DF /* mnem_a.png */; };
+		E2B37ADC15F203D2CF5146D9 /* PhonicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B61748B243BB47B36DA84BC /* PhonicsTests.swift */; };
+		E5185C82828030EEFD06FC5F /* phoneme_uk_or.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9F80522EAB0F118641139DD8 /* phoneme_uk_or.wav */; };
+		E5FFC5AA0F1725E0A8A985D8 /* phoneme_de_o_long.wav in Resources */ = {isa = PBXBuildFile; fileRef = C16D69252B96C18B550B474B /* phoneme_de_o_long.wav */; };
+		E789A9F3EABC35146D5799AA /* TracingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003FB86E43A187E1A28BC14A /* TracingView.swift */; };
+		E84AF286B967336A9E685A54 /* ParentProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305CE7330ED146C78010BCC7 /* ParentProgressView.swift */; };
+		EAEE5D5457E0014ED19F600F /* phoneme_uk_ear.wav in Resources */ = {isa = PBXBuildFile; fileRef = 49B7904F9A8A7AFFB3B87CA6 /* phoneme_uk_ear.wav */; };
+		EB5F87FA663B3B9B1DF0EB84 /* phoneme_g.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1309F4B6D3CF653F959C80BE /* phoneme_g.wav */; };
+		EBB9EA6D42FE456E77679CC8 /* ui_greatjob.wav in Resources */ = {isa = PBXBuildFile; fileRef = 335DA9901171A5E475DF66E1 /* ui_greatjob.wav */; };
+		EC23807D540CEE1004031BF2 /* phoneme_f.wav in Resources */ = {isa = PBXBuildFile; fileRef = 13CFCD60AFAE410A77B9475F /* phoneme_f.wav */; };
+		F0C6F2581B90FAF705B4CB42 /* phoneme_oe.wav in Resources */ = {isa = PBXBuildFile; fileRef = E0D63D5BE9A3BF5C3C678A21 /* phoneme_oe.wav */; };
+		F19B3EC2BDC55E6946EEC858 /* GreekWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3435AEFF25D9F1713660B48E /* GreekWords.swift */; };
+		F1EA93AFD88862E74D4D7E0C /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B92E8B277BECEE71E8A72BC /* Theme.swift */; };
+		F42579C20064841587133F93 /* phoneme_fr_an.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2786CBB50DF6F8A74643AB0C /* phoneme_fr_an.wav */; };
+		F449C790E13D0438A5D9B919 /* ProfileStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5182EAB400ED4020A2B6E4F9 /* ProfileStore.swift */; };
+		FB86F9D66BA3DD4DF4D64742 /* phoneme_c.wav in Resources */ = {isa = PBXBuildFile; fileRef = F5E7A374483B15F609C77DAC /* phoneme_c.wav */; };
+		FF852761E8B4D30E6BDF6827 /* Reward3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E8E74B1D647BB24C7CBD07 /* Reward3DView.swift */; };
+		FFDC988E351CA80F9D42200F /* phoneme_uk_air.wav in Resources */ = {isa = PBXBuildFile; fileRef = 64FE5B59B8AFC8286C7CA7B9 /* phoneme_uk_air.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5345969CBA8BCEC62323DBD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7454EB2AA31CCA0910382260 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AF3D808477E8181881F25A9;
+			remoteInfo = ReadRocketPhonics;
+		};
+		BB5CB0DC9B7876ED27AF67BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7454EB2AA31CCA0910382260 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AF3D808477E8181881F25A9;
+			remoteInfo = ReadRocketPhonics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003FB86E43A187E1A28BC14A /* TracingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracingView.swift; sourceTree = "<group>"; };
+		00DAA2BE6220FE1CCE25B7BB /* mnem_i.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mnem_i.png; sourceTree = "<group>"; };
+		01079F44854D491B2561641C /* mnem_m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mnem_m.png; sourceTree = "<group>"; };
+		0215E7D61825C231494A3A5F /* PortugueseWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortugueseWords.swift; sourceTree = "<group>"; };
+		04CC65CB5279EEF18662EFA4 /* SliceSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliceSceneView.swift; sourceTree = "<group>"; };
+		05F31E1A0844F545B885A99C /* EnglishUKLand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishUKLand.swift; sourceTree = "<group>"; };
+		0665D799C94AB49741BBCF29 /* phoneme_d.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_d.wav; sourceTree = "<group>"; };
+		070429016E66D4361C0F59A4 /* LanguagePacksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagePacksTests.swift; sourceTree = "<group>"; };
+		08862604124E2BB0CBA4C41F /* CelebrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebrationView.swift; sourceTree = "<group>"; };
+		08DA79BED2536A3A3F313C60 /* mnem_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mnem_s.png; sourceTree = "<group>"; };
+		0902F2BE8A2FCC8171B65C11 /* SoundFXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundFXTests.swift; sourceTree = "<group>"; };
+		0A14050FF2878E587DB80A09 /* WorldLessonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldLessonTests.swift; sourceTree = "<group>"; };
+		0AFAF19C5D8467B0C83B2661 /* phoneme_uk_ar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_uk_ar.wav; sourceTree = "<group>"; };
+		0B92E8B277BECEE71E8A72BC /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		0D1C34334056A74E67B219AF /* Critter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Critter.swift; sourceTree = "<group>"; };
+		0E97087323A9305B157EA6F2 /* SpanishLand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpanishLand.swift; sourceTree = "<group>"; };
+		1309F4B6D3CF653F959C80BE /* phoneme_g.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_g.wav; sourceTree = "<group>"; };
+		135E43B8ED51614ADB0AE453 /* mnem_w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mnem_w.png; sourceTree = "<group>"; };
+		13CFCD60AFAE410A77B9475F /* phoneme_f.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_f.wav; sourceTree = "<group>"; };
+		1508944ED3740B0F85D58980 /* Curriculum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curriculum.swift; sourceTree = "<group>"; };
+		158D8397FAF814E7AD8BEEEC /* phoneme_u.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_u.wav; sourceTree = "<group>"; };
+		193EE1B10C0D76491C4C3157 /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		19C88CCDB405DBC64520267C /* CurriculumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurriculumTests.swift; sourceTree = "<group>"; };
+		1CC06978086EBDA7892EFC39 /* SoundCheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundCheckView.swift; sourceTree = "<group>"; };
+		1CF993C1D458CEA0C4540A95 /* phoneme_el_x.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_el_x.wav; sourceTree = "<group>"; };
+		2018CFE2BCE2AC13FAC16AE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		202E062E516338E09CCABEB4 /* phoneme_sh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_sh.wav; sourceTree = "<group>"; };
+		21004B9DA3233426DF4FD6BA /* mnem_k.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mnem_k.png; sourceTree = "<group>"; };
+		22DD04AAE456F5532ACC4500 /* GreekLand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekLand.swift; sourceTree = "<group>"; };
+		230757AEA6B095541A9B76E0 /* mnem_q.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mnem_q.png; sourceTree = "<group>"; };
+		23C9B8DAEECD7C13FE0C939C /* AudioBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioBank.swift; sourceTree = "<group>"; };
+		23D0B098EE3559B0223029AC /* ParentalGateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentalGateView.swift; sourceTree = "<group>"; };
+		24562FD0F3E48BE8696C5C48 /* phoneme_v.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_v.wav; sourceTree = "<group>"; };
+		2786CBB50DF6F8A74643AB0C /* phoneme_fr_an.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_fr_an.wav; sourceTree = "<group>"; };
+		29B15CBA0DDB38FEA023A800 /* phoneme_el_gh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_el_gh.wav; sourceTree = "<group>"; };
+		2A56102428456D3BE39474B7 /* EnglishUKWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishUKWords.swift; sourceTree = "<group>"; };
+		2AECB66F0EF426A8C2CB08E3 /* phoneme_el_e.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_el_e.wav; sourceTree = "<group>"; };
+		2C6F1B9D12C82552A53690D4 /* phoneme_m.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_m.wav; sourceTree = "<group>"; };
+		2EE179E6A792738DA68170E2 /* mnem_y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mnem_y.png; sourceTree = "<group>"; };
+		305CE7330ED146C78010BCC7 /* ParentProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentProgressView.swift; sourceTree = "<group>"; };
+		31FE0B50616DA820F0565C9F /* GreekLandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekLandTests.swift; sourceTree = "<group>"; };
+		3224554E0CE19A859E4A63DF /* phoneme_de_e_long.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_de_e_long.wav; sourceTree = "<group>"; };
+		335DA9901171A5E475DF66E1 /* ui_greatjob.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ui_greatjob.wav; sourceTree = "<group>"; };
+		3435AEFF25D9F1713660B48E /* GreekWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekWords.swift; sourceTree = "<group>"; };
+		35A1E729F31E4C135ADDF99D /* ui_blastoff.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ui_blastoff.wav; sourceTree = "<group>"; };
+		35F1E21E2BABD9DC73B5942D /* mnem_e.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mnem_e.png; sourceTree = "<group>"; };
+		361373E62A670A5CECB5EBBC /* PosterScenes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterScenes.swift; sourceTree = "<group>"; };
+		366C43C2309F7758A854102E /* phoneme_el_i.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_el_i.wav; sourceTree = "<group>"; };
+		38FB450E4C0B3F11F26907D7 /* phoneme_de_er.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_de_er.wav; sourceTree = "<group>"; };
+		3A8A465191C60EFB3159AB2C /* phoneme_zh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_zh.wav; sourceTree = "<group>"; };
+		3AE157DB201EAE6BF6285B4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3CB1C906BEA33D1605705971 /* SoundFX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundFX.swift; sourceTree = "<group>"; };
+		3F3EDFB66DA03B6E452B5B17 /* mnem_v.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mnem_v.png; sourceTree = "<group>"; };
+		48B58A8CD2FAF0237A464F8E /* FrenchWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrenchWords.swift; sourceTree = "<group>"; };
+		49B7904F9A8A7AFFB3B87CA6 /* phoneme_uk_ear.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_uk_ear.wav; sourceTree = "<group>"; };
+		49BB7F0F3C0123E36771E4F5 /* MosaicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosaicView.swift; sourceTree = "<group>"; };
+		4D21B2761AFF1158CF5AFF40 /* phoneme_b.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_b.wav; sourceTree = "<group>"; };
+		4DF639D201AAE4556A175284 /* MouthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouthView.swift; sourceTree = "<group>"; };
+		4E3CB35962580FDE017DDF8E /* phoneme_uk_o.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_uk_o.wav; sourceTree = "<group>"; };
+		4EFE2819CCDE8905C2A268F1 /* AppEnv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnv.swift; sourceTree = "<group>"; };
+		5182EAB400ED4020A2B6E4F9 /* ProfileStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileStore.swift; sourceTree = "<group>"; };
+		5266F7396FFFA2F12D3DBE67 /* mnem_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mnem_n.png; sourceTree = "<group>"; };
+		53E0229B4E43A45C197FE226 /* Flex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flex.swift; sourceTree = "<group>"; };
+		543D9D0F93D708888985F30B /* phoneme_r.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_r.wav; sourceTree = "<group>"; };
+		55E48FE33B7C757B9E9E2E48 /* PortugueseLand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortugueseLand.swift; sourceTree = "<group>"; };
+		563248B04A7F9FD205A415B9 /* mnem_o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mnem_o.png; sourceTree = "<group>"; };
+		59E8E74B1D647BB24C7CBD07 /* Reward3DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reward3DView.swift; sourceTree = "<group>"; };
+		5B257D2A8D09FB4701DB44C4 /* phoneme_de_a_long.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_de_a_long.wav; sourceTree = "<group>"; };
+		5C749B777FD05CC8B5454D0F /* ui_tryagain.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ui_tryagain.wav; sourceTree = "<group>"; };
+		5EC9B26CECD7B3CEBB278D41 /* phoneme_k.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_k.wav; sourceTree = "<group>"; };
+		60CC5E79C25EF6FFE52445BD /* Phonology.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phonology.swift; sourceTree = "<group>"; };
+		61C243C61E88B0413B17AE13 /* phoneme_de_i_long.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_de_i_long.wav; sourceTree = "<group>"; };
+		630A5E42138C50DB58B03AD1 /* FrenchLand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrenchLand.swift; sourceTree = "<group>"; };
+		64FE5B59B8AFC8286C7CA7B9 /* phoneme_uk_air.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_uk_air.wav; sourceTree = "<group>"; };
+		6557B266BF38142B97542E7D /* phoneme_qu.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_qu.wav; sourceTree = "<group>"; };
+		65597DF92A19122C75E15376 /* music_beach.m4a */ = {isa = PBXFileReference; path = music_beach.m4a; sourceTree = "<group>"; };
+		66645556A8744A59F8FC686D /* ReadRocketPhonicsUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ReadRocketPhonicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67F35ABCAFE0B8AEC3DD7E02 /* phoneme_es_u.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_es_u.wav; sourceTree = "<group>"; };
+		69266A815DA899F67AA56748 /* phoneme_de_u_short.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_de_u_short.wav; sourceTree = "<group>"; };
+		69ECEEC9EDB87C9ED238BFDD /* ui_whoreading.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ui_whoreading.wav; sourceTree = "<group>"; };
+		6AF08D3D92DBB922062B798B /* LanguagePack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagePack.swift; sourceTree = "<group>"; };
+		6B01AAD3B68FE67B6F25CEE8 /* phoneme_x.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_x.wav; sourceTree = "<group>"; };
+		6CAFB752BF1956DF050076BC /* mnem_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mnem_h.png; sourceTree = "<group>"; };
+		6FABCFAE4A779860FF36CA64 /* phoneme_es_y.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_es_y.wav; sourceTree = "<group>"; };
+		728D39DC0E9E72ACE587528E /* phoneme_el_o.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_el_o.wav; sourceTree = "<group>"; };
+		72FB02AB7F72F70097BD8A03 /* phoneme_n.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_n.wav; sourceTree = "<group>"; };
+		74BB703D1F8154CF4301FBB8 /* Phonics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phonics.swift; sourceTree = "<group>"; };
+		7580676C954705772A8C7EFB /* phoneme_w.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_w.wav; sourceTree = "<group>"; };
+		786E13549B09BDEBE72DF86D /* phoneme_i.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_i.wav; sourceTree = "<group>"; };
+		797A0C2657B1F321B9E62322 /* mnem_u.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mnem_u.png; sourceTree = "<group>"; };
+		7A271427677C7FE80F7BF76F /* phoneme_e.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_e.wav; sourceTree = "<group>"; };
+		7AEA8D8F684FDDF3C8765C7A /* ReadRocketPhonicsTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ReadRocketPhonicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B61748B243BB47B36DA84BC /* PhonicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonicsTests.swift; sourceTree = "<group>"; };
+		7BF33005D652048D286F46C0 /* PlacementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementView.swift; sourceTree = "<group>"; };
+		7C73122BE2D4F2ABF675EDF5 /* mnem_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mnem_d.png; sourceTree = "<group>"; };
+		7C8251BB134CB454F486444B /* phoneme_ts.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_ts.wav; sourceTree = "<group>"; };
+		81D79B5A1EED65DF80C675BF /* phoneme_t.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_t.wav; sourceTree = "<group>"; };
+		834BCB071B431AB4C8AC2791 /* phoneme_el_dh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_el_dh.wav; sourceTree = "<group>"; };
+		83A069AF88102384783F35DF /* mnem_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mnem_a.png; sourceTree = "<group>"; };
+		83F9A0FCD71F4D26A0583898 /* LetterStrokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterStrokes.swift; sourceTree = "<group>"; };
+		85BCB3D7C9BEA86E18412769 /* phoneme_s.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_s.wav; sourceTree = "<group>"; };
+		8A9B401D1370E1E90FC0F878 /* WorldLessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldLessonView.swift; sourceTree = "<group>"; };
+		8AAE45FBFCFF49CB8A9C8FB7 /* phoneme_a.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_a.wav; sourceTree = "<group>"; };
+		8CD8398EF41AEFC868786388 /* ReadRocketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadRocketApp.swift; sourceTree = "<group>"; };
+		92BB4A2094256195362BD6FB /* phoneme_fr_on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_fr_on.wav; sourceTree = "<group>"; };
+		931694C7C13281788CFF0450 /* SpanishWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpanishWords.swift; sourceTree = "<group>"; };
+		95E5057E72A8109D566E9A74 /* phoneme_el_ps.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_el_ps.wav; sourceTree = "<group>"; };
+		96927ED3E35069E024783022 /* Placement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placement.swift; sourceTree = "<group>"; };
+		973223A1C3873ED2CFB5EF5B /* phoneme_aw.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_aw.wav; sourceTree = "<group>"; };
+		97C584E1E6819762A374D6E4 /* music_farm.m4a */ = {isa = PBXFileReference; path = music_farm.m4a; sourceTree = "<group>"; };
+		99AD99B1624370F8A2CB085A /* LetterLand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterLand.swift; sourceTree = "<group>"; };
+		9D216308273F805157AF12ED /* phoneme_h.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_h.wav; sourceTree = "<group>"; };
+		9F80522EAB0F118641139DD8 /* phoneme_uk_or.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_uk_or.wav; sourceTree = "<group>"; };
+		A16C7EAAF980DD933B529F18 /* SpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechManager.swift; sourceTree = "<group>"; };
+		A3BDE526E4F1738D2F354E0C /* mnem_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mnem_c.png; sourceTree = "<group>"; };
+		A5533FED8E29BB5A633C8434 /* phoneme_j.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_j.wav; sourceTree = "<group>"; };
+		A63FDDCAF2A14584C26F56FC /* ui_belly.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ui_belly.wav; sourceTree = "<group>"; };
+		A8C3B8F8F5630CAED6A506C8 /* ui_diaper.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ui_diaper.wav; sourceTree = "<group>"; };
+		AFEEAB753A79E6285FAC4F31 /* phoneme_schwa.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_schwa.wav; sourceTree = "<group>"; };
+		B1194262A76EB58045D576FB /* BookReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookReaderView.swift; sourceTree = "<group>"; };
+		B18BB450BEDA968B248B26CE /* StickerGiftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerGiftView.swift; sourceTree = "<group>"; };
+		B2269D6F9BC44EC3958CBB51 /* phoneme_fr_wa.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_fr_wa.wav; sourceTree = "<group>"; };
+		B258DF015AE439F92CC03F1C /* mnem_g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mnem_g.png; sourceTree = "<group>"; };
+		B79A4AC638FD3B560BFD11FA /* ReadRocketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadRocketUITests.swift; sourceTree = "<group>"; };
+		B7EB973AAD3434C480F16B57 /* mnem_x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mnem_x.png; sourceTree = "<group>"; };
+		B92CD9E34F6DC850710087F8 /* mnem_r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mnem_r.png; sourceTree = "<group>"; };
+		B9B560A0D6940348B1D67B22 /* phoneme_fr_in.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_fr_in.wav; sourceTree = "<group>"; };
+		BBF2C4610728FF7183F0855A /* PlacementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementTests.swift; sourceTree = "<group>"; };
+		BDF7BF4C62CF7CC741C62654 /* phoneme_pt_aow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_pt_aow.wav; sourceTree = "<group>"; };
+		C16D69252B96C18B550B474B /* phoneme_de_o_long.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_de_o_long.wav; sourceTree = "<group>"; };
+		C192162775915087CD3CBD76 /* phoneme_el_a.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_el_a.wav; sourceTree = "<group>"; };
+		C1B302E151445F7C6FF7DF0D /* mnem_f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mnem_f.png; sourceTree = "<group>"; };
+		C1F0D57DF6D52825F0754953 /* phoneme_es_r.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_es_r.wav; sourceTree = "<group>"; };
+		C21B1AC5D65EDACCEEDE546B /* phoneme_uk_oa.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_uk_oa.wav; sourceTree = "<group>"; };
+		C324A52B619B2CAB00609063 /* Blending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blending.swift; sourceTree = "<group>"; };
+		C5CD681E9B72605E580BED25 /* phoneme_rr.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_rr.wav; sourceTree = "<group>"; };
+		C5E8A3292534EFE40EBE0069 /* phoneme_el_th.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_el_th.wav; sourceTree = "<group>"; };
+		CE5A45E6E0871DFC6DCB917A /* ReviewLessons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewLessons.swift; sourceTree = "<group>"; };
+		CFF555900855697B0D62544E /* mnem_p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mnem_p.png; sourceTree = "<group>"; };
+		D36DF0EE047D390A6EC6811F /* phoneme_es_ny.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_es_ny.wav; sourceTree = "<group>"; };
+		D41207D132531D263A44B2D1 /* phoneme_pt_aej.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_pt_aej.wav; sourceTree = "<group>"; };
+		D61390E6A92E04E652669FD5 /* phoneme_o.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_o.wav; sourceTree = "<group>"; };
+		D6D804FDBD4B9CA7FB134BB5 /* ProfileStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileStoreTests.swift; sourceTree = "<group>"; };
+		D753FF0E4FFB35A0AA34A3FA /* GermanLand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GermanLand.swift; sourceTree = "<group>"; };
+		DE3EC5F538AB30960C95C04A /* phoneme_y.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_y.wav; sourceTree = "<group>"; };
+		DF2EF88DB176ADA673DF134C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		E03E59C149ADE3CC8DAB3193 /* LessonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonViewModel.swift; sourceTree = "<group>"; };
+		E0D63D5BE9A3BF5C3C678A21 /* phoneme_oe.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_oe.wav; sourceTree = "<group>"; };
+		E221BEE807DC82CCC062DBE8 /* phoneme_p.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_p.wav; sourceTree = "<group>"; };
+		E2C51935DABBC847B850E812 /* SpanishLandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpanishLandTests.swift; sourceTree = "<group>"; };
+		E5E9F37BE7C3D6C2F77D03FD /* mnem_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mnem_b.png; sourceTree = "<group>"; };
+		E67418392DE13240D03821C7 /* phoneme_de_u_long.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_de_u_long.wav; sourceTree = "<group>"; };
+		E9F9A625131EB98BAEB13073 /* phoneme_z.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_z.wav; sourceTree = "<group>"; };
+		EA73F43434C7AA85D1F22B20 /* phoneme_fr_oe.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_fr_oe.wav; sourceTree = "<group>"; };
+		EC96F3039A7F1BD324DC531F /* MnemonicArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MnemonicArt.swift; sourceTree = "<group>"; };
+		ED6A61DE4C0DC56CB4C66731 /* music_flow.m4a */ = {isa = PBXFileReference; path = music_flow.m4a; sourceTree = "<group>"; };
+		EDBDDF3F0A650D18C79F7232 /* mnem_j.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mnem_j.png; sourceTree = "<group>"; };
+		EDC9EFAAB7C6CA0BE3887158 /* StickerBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerBookView.swift; sourceTree = "<group>"; };
+		EE1E6A1C9AC8F170739C185C /* WordFamilies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordFamilies.swift; sourceTree = "<group>"; };
+		EE33CB6303DE0755A9C6AC4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EEB8AA7A833CB52994EB6095 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		EF028187CD2CC0731E131522 /* ReadRocketPhonics.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ReadRocketPhonics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F429AB32A6E178B7573CCD18 /* phoneme_l.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_l.wav; sourceTree = "<group>"; };
+		F4CF6A74B36DE2843DE909D9 /* ui_sayitwithme.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ui_sayitwithme.wav; sourceTree = "<group>"; };
+		F5AC1A43C4794D2EC3366E15 /* phoneme_uk_er.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_uk_er.wav; sourceTree = "<group>"; };
+		F5E7A374483B15F609C77DAC /* phoneme_c.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_c.wav; sourceTree = "<group>"; };
+		F992BECB4610D9A919229FA7 /* mnem_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mnem_l.png; sourceTree = "<group>"; };
+		FB6AD3F6FF828FDE42F2EF9C /* phoneme_ue.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_ue.wav; sourceTree = "<group>"; };
+		FF2C65B269F183EADEEEFD82 /* GermanWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GermanWords.swift; sourceTree = "<group>"; };
+		FF98B4770C8235DCF89C0B3B /* phoneme_kv.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_kv.wav; sourceTree = "<group>"; };
+		FFB1ABEE995DD448EF2F1BE8 /* phoneme_uk_ure.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = phoneme_uk_ure.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0AA892196A2AB5AC673C034D /* ReadRocketTests */ = {
+			isa = PBXGroup;
+			children = (
+				19C88CCDB405DBC64520267C /* CurriculumTests.swift */,
+				31FE0B50616DA820F0565C9F /* GreekLandTests.swift */,
+				070429016E66D4361C0F59A4 /* LanguagePacksTests.swift */,
+				7B61748B243BB47B36DA84BC /* PhonicsTests.swift */,
+				BBF2C4610728FF7183F0855A /* PlacementTests.swift */,
+				D6D804FDBD4B9CA7FB134BB5 /* ProfileStoreTests.swift */,
+				0902F2BE8A2FCC8171B65C11 /* SoundFXTests.swift */,
+				E2C51935DABBC847B850E812 /* SpanishLandTests.swift */,
+				0A14050FF2878E587DB80A09 /* WorldLessonTests.swift */,
+			);
+			path = ReadRocketTests;
+			sourceTree = "<group>";
+		};
+		1CA39F3535CF5E0C0132444C /* ReadRocketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B79A4AC638FD3B560BFD11FA /* ReadRocketUITests.swift */,
+			);
+			path = ReadRocketUITests;
+			sourceTree = "<group>";
+		};
+		37B46445B6B349C43478C3E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1194262A76EB58045D576FB /* BookReaderView.swift */,
+				08862604124E2BB0CBA4C41F /* CelebrationView.swift */,
+				0D1C34334056A74E67B219AF /* Critter.swift */,
+				E03E59C149ADE3CC8DAB3193 /* LessonViewModel.swift */,
+				EEB8AA7A833CB52994EB6095 /* LibraryView.swift */,
+				DF2EF88DB176ADA673DF134C /* MapView.swift */,
+				EC96F3039A7F1BD324DC531F /* MnemonicArt.swift */,
+				49BB7F0F3C0123E36771E4F5 /* MosaicView.swift */,
+				4DF639D201AAE4556A175284 /* MouthView.swift */,
+				23D0B098EE3559B0223029AC /* ParentalGateView.swift */,
+				305CE7330ED146C78010BCC7 /* ParentProgressView.swift */,
+				7BF33005D652048D286F46C0 /* PlacementView.swift */,
+				361373E62A670A5CECB5EBBC /* PosterScenes.swift */,
+				59E8E74B1D647BB24C7CBD07 /* Reward3DView.swift */,
+				04CC65CB5279EEF18662EFA4 /* SliceSceneView.swift */,
+				1CC06978086EBDA7892EFC39 /* SoundCheckView.swift */,
+				EDC9EFAAB7C6CA0BE3887158 /* StickerBookView.swift */,
+				B18BB450BEDA968B248B26CE /* StickerGiftView.swift */,
+				0B92E8B277BECEE71E8A72BC /* Theme.swift */,
+				003FB86E43A187E1A28BC14A /* TracingView.swift */,
+				8A9B401D1370E1E90FC0F878 /* WorldLessonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3EDA340BB25E1B07FDBE61CD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B274713A9A2610845BA29FE9 /* Audio */,
+				415D7DC49A72ACABF5939B41 /* Mnemonics */,
+				F71A39C2576E1EB21FD60D95 /* Music */,
+				2018CFE2BCE2AC13FAC16AE9 /* Assets.xcassets */,
+				3AE157DB201EAE6BF6285B4A /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		415D7DC49A72ACABF5939B41 /* Mnemonics */ = {
+			isa = PBXGroup;
+			children = (
+				83A069AF88102384783F35DF /* mnem_a.png */,
+				E5E9F37BE7C3D6C2F77D03FD /* mnem_b.png */,
+				A3BDE526E4F1738D2F354E0C /* mnem_c.png */,
+				7C73122BE2D4F2ABF675EDF5 /* mnem_d.png */,
+				35F1E21E2BABD9DC73B5942D /* mnem_e.png */,
+				C1B302E151445F7C6FF7DF0D /* mnem_f.png */,
+				B258DF015AE439F92CC03F1C /* mnem_g.png */,
+				6CAFB752BF1956DF050076BC /* mnem_h.png */,
+				00DAA2BE6220FE1CCE25B7BB /* mnem_i.png */,
+				EDBDDF3F0A650D18C79F7232 /* mnem_j.png */,
+				21004B9DA3233426DF4FD6BA /* mnem_k.png */,
+				F992BECB4610D9A919229FA7 /* mnem_l.png */,
+				01079F44854D491B2561641C /* mnem_m.png */,
+				5266F7396FFFA2F12D3DBE67 /* mnem_n.png */,
+				563248B04A7F9FD205A415B9 /* mnem_o.png */,
+				CFF555900855697B0D62544E /* mnem_p.png */,
+				230757AEA6B095541A9B76E0 /* mnem_q.png */,
+				B92CD9E34F6DC850710087F8 /* mnem_r.png */,
+				08DA79BED2536A3A3F313C60 /* mnem_s.png */,
+				797A0C2657B1F321B9E62322 /* mnem_u.png */,
+				3F3EDFB66DA03B6E452B5B17 /* mnem_v.png */,
+				135E43B8ED51614ADB0AE453 /* mnem_w.png */,
+				B7EB973AAD3434C480F16B57 /* mnem_x.png */,
+				2EE179E6A792738DA68170E2 /* mnem_y.png */,
+			);
+			path = Mnemonics;
+			sourceTree = "<group>";
+		};
+		47183C6C4E36AD20D2218542 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C324A52B619B2CAB00609063 /* Blending.swift */,
+				1508944ED3740B0F85D58980 /* Curriculum.swift */,
+				05F31E1A0844F545B885A99C /* EnglishUKLand.swift */,
+				2A56102428456D3BE39474B7 /* EnglishUKWords.swift */,
+				53E0229B4E43A45C197FE226 /* Flex.swift */,
+				630A5E42138C50DB58B03AD1 /* FrenchLand.swift */,
+				48B58A8CD2FAF0237A464F8E /* FrenchWords.swift */,
+				D753FF0E4FFB35A0AA34A3FA /* GermanLand.swift */,
+				FF2C65B269F183EADEEEFD82 /* GermanWords.swift */,
+				22DD04AAE456F5532ACC4500 /* GreekLand.swift */,
+				3435AEFF25D9F1713660B48E /* GreekWords.swift */,
+				6AF08D3D92DBB922062B798B /* LanguagePack.swift */,
+				99AD99B1624370F8A2CB085A /* LetterLand.swift */,
+				83F9A0FCD71F4D26A0583898 /* LetterStrokes.swift */,
+				74BB703D1F8154CF4301FBB8 /* Phonics.swift */,
+				60CC5E79C25EF6FFE52445BD /* Phonology.swift */,
+				96927ED3E35069E024783022 /* Placement.swift */,
+				55E48FE33B7C757B9E9E2E48 /* PortugueseLand.swift */,
+				0215E7D61825C231494A3A5F /* PortugueseWords.swift */,
+				5182EAB400ED4020A2B6E4F9 /* ProfileStore.swift */,
+				CE5A45E6E0871DFC6DCB917A /* ReviewLessons.swift */,
+				0E97087323A9305B157EA6F2 /* SpanishLand.swift */,
+				931694C7C13281788CFF0450 /* SpanishWords.swift */,
+				EE1E6A1C9AC8F170739C185C /* WordFamilies.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		80A21FAC628F9141C3DF1E45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF028187CD2CC0731E131522 /* ReadRocketPhonics.app */,
+				7AEA8D8F684FDDF3C8765C7A /* ReadRocketPhonicsTests.xctest */,
+				66645556A8744A59F8FC686D /* ReadRocketPhonicsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A701F0CFC829EE83C029CC7 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				23C9B8DAEECD7C13FE0C939C /* AudioBank.swift */,
+				193EE1B10C0D76491C4C3157 /* MusicPlayer.swift */,
+				3CB1C906BEA33D1605705971 /* SoundFX.swift */,
+				A16C7EAAF980DD933B529F18 /* SpeechManager.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		9F5168FC142E85F460C4A362 = {
+			isa = PBXGroup;
+			children = (
+				3EDA340BB25E1B07FDBE61CD /* Resources */,
+				D2813BAD2CC4A3E008E37DF3 /* Sources */,
+				CABA3F2A1161633BB53FC4D3 /* Tests */,
+				80A21FAC628F9141C3DF1E45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B274713A9A2610845BA29FE9 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				8AAE45FBFCFF49CB8A9C8FB7 /* phoneme_a.wav */,
+				973223A1C3873ED2CFB5EF5B /* phoneme_aw.wav */,
+				4D21B2761AFF1158CF5AFF40 /* phoneme_b.wav */,
+				F5E7A374483B15F609C77DAC /* phoneme_c.wav */,
+				0665D799C94AB49741BBCF29 /* phoneme_d.wav */,
+				5B257D2A8D09FB4701DB44C4 /* phoneme_de_a_long.wav */,
+				3224554E0CE19A859E4A63DF /* phoneme_de_e_long.wav */,
+				38FB450E4C0B3F11F26907D7 /* phoneme_de_er.wav */,
+				61C243C61E88B0413B17AE13 /* phoneme_de_i_long.wav */,
+				C16D69252B96C18B550B474B /* phoneme_de_o_long.wav */,
+				E67418392DE13240D03821C7 /* phoneme_de_u_long.wav */,
+				69266A815DA899F67AA56748 /* phoneme_de_u_short.wav */,
+				7A271427677C7FE80F7BF76F /* phoneme_e.wav */,
+				C192162775915087CD3CBD76 /* phoneme_el_a.wav */,
+				834BCB071B431AB4C8AC2791 /* phoneme_el_dh.wav */,
+				2AECB66F0EF426A8C2CB08E3 /* phoneme_el_e.wav */,
+				29B15CBA0DDB38FEA023A800 /* phoneme_el_gh.wav */,
+				366C43C2309F7758A854102E /* phoneme_el_i.wav */,
+				728D39DC0E9E72ACE587528E /* phoneme_el_o.wav */,
+				95E5057E72A8109D566E9A74 /* phoneme_el_ps.wav */,
+				C5E8A3292534EFE40EBE0069 /* phoneme_el_th.wav */,
+				1CF993C1D458CEA0C4540A95 /* phoneme_el_x.wav */,
+				D36DF0EE047D390A6EC6811F /* phoneme_es_ny.wav */,
+				C1F0D57DF6D52825F0754953 /* phoneme_es_r.wav */,
+				67F35ABCAFE0B8AEC3DD7E02 /* phoneme_es_u.wav */,
+				6FABCFAE4A779860FF36CA64 /* phoneme_es_y.wav */,
+				13CFCD60AFAE410A77B9475F /* phoneme_f.wav */,
+				2786CBB50DF6F8A74643AB0C /* phoneme_fr_an.wav */,
+				B9B560A0D6940348B1D67B22 /* phoneme_fr_in.wav */,
+				EA73F43434C7AA85D1F22B20 /* phoneme_fr_oe.wav */,
+				92BB4A2094256195362BD6FB /* phoneme_fr_on.wav */,
+				B2269D6F9BC44EC3958CBB51 /* phoneme_fr_wa.wav */,
+				1309F4B6D3CF653F959C80BE /* phoneme_g.wav */,
+				9D216308273F805157AF12ED /* phoneme_h.wav */,
+				786E13549B09BDEBE72DF86D /* phoneme_i.wav */,
+				A5533FED8E29BB5A633C8434 /* phoneme_j.wav */,
+				5EC9B26CECD7B3CEBB278D41 /* phoneme_k.wav */,
+				FF98B4770C8235DCF89C0B3B /* phoneme_kv.wav */,
+				F429AB32A6E178B7573CCD18 /* phoneme_l.wav */,
+				2C6F1B9D12C82552A53690D4 /* phoneme_m.wav */,
+				72FB02AB7F72F70097BD8A03 /* phoneme_n.wav */,
+				D61390E6A92E04E652669FD5 /* phoneme_o.wav */,
+				E0D63D5BE9A3BF5C3C678A21 /* phoneme_oe.wav */,
+				E221BEE807DC82CCC062DBE8 /* phoneme_p.wav */,
+				D41207D132531D263A44B2D1 /* phoneme_pt_aej.wav */,
+				BDF7BF4C62CF7CC741C62654 /* phoneme_pt_aow.wav */,
+				6557B266BF38142B97542E7D /* phoneme_qu.wav */,
+				543D9D0F93D708888985F30B /* phoneme_r.wav */,
+				C5CD681E9B72605E580BED25 /* phoneme_rr.wav */,
+				85BCB3D7C9BEA86E18412769 /* phoneme_s.wav */,
+				AFEEAB753A79E6285FAC4F31 /* phoneme_schwa.wav */,
+				202E062E516338E09CCABEB4 /* phoneme_sh.wav */,
+				81D79B5A1EED65DF80C675BF /* phoneme_t.wav */,
+				7C8251BB134CB454F486444B /* phoneme_ts.wav */,
+				158D8397FAF814E7AD8BEEEC /* phoneme_u.wav */,
+				FB6AD3F6FF828FDE42F2EF9C /* phoneme_ue.wav */,
+				64FE5B59B8AFC8286C7CA7B9 /* phoneme_uk_air.wav */,
+				0AFAF19C5D8467B0C83B2661 /* phoneme_uk_ar.wav */,
+				49B7904F9A8A7AFFB3B87CA6 /* phoneme_uk_ear.wav */,
+				F5AC1A43C4794D2EC3366E15 /* phoneme_uk_er.wav */,
+				4E3CB35962580FDE017DDF8E /* phoneme_uk_o.wav */,
+				C21B1AC5D65EDACCEEDE546B /* phoneme_uk_oa.wav */,
+				9F80522EAB0F118641139DD8 /* phoneme_uk_or.wav */,
+				FFB1ABEE995DD448EF2F1BE8 /* phoneme_uk_ure.wav */,
+				24562FD0F3E48BE8696C5C48 /* phoneme_v.wav */,
+				7580676C954705772A8C7EFB /* phoneme_w.wav */,
+				6B01AAD3B68FE67B6F25CEE8 /* phoneme_x.wav */,
+				DE3EC5F538AB30960C95C04A /* phoneme_y.wav */,
+				E9F9A625131EB98BAEB13073 /* phoneme_z.wav */,
+				3A8A465191C60EFB3159AB2C /* phoneme_zh.wav */,
+				A63FDDCAF2A14584C26F56FC /* ui_belly.wav */,
+				35A1E729F31E4C135ADDF99D /* ui_blastoff.wav */,
+				A8C3B8F8F5630CAED6A506C8 /* ui_diaper.wav */,
+				335DA9901171A5E475DF66E1 /* ui_greatjob.wav */,
+				F4CF6A74B36DE2843DE909D9 /* ui_sayitwithme.wav */,
+				5C749B777FD05CC8B5454D0F /* ui_tryagain.wav */,
+				69ECEEC9EDB87C9ED238BFDD /* ui_whoreading.wav */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		CABA3F2A1161633BB53FC4D3 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0AA892196A2AB5AC673C034D /* ReadRocketTests */,
+				1CA39F3535CF5E0C0132444C /* ReadRocketUITests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		D2813BAD2CC4A3E008E37DF3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8A701F0CFC829EE83C029CC7 /* Audio */,
+				47183C6C4E36AD20D2218542 /* Model */,
+				37B46445B6B349C43478C3E1 /* Views */,
+				4EFE2819CCDE8905C2A268F1 /* AppEnv.swift */,
+				EE33CB6303DE0755A9C6AC4A /* ContentView.swift */,
+				8CD8398EF41AEFC868786388 /* ReadRocketApp.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F71A39C2576E1EB21FD60D95 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				65597DF92A19122C75E15376 /* music_beach.m4a */,
+				97C584E1E6819762A374D6E4 /* music_farm.m4a */,
+				ED6A61DE4C0DC56CB4C66731 /* music_flow.m4a */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0062548BCB47099368534C93 /* ReadRocketPhonicsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE16D23625DA4CD170D516F7 /* Build configuration list for PBXNativeTarget "ReadRocketPhonicsUITests" */;
+			buildPhases = (
+				7B6BCCD0D44A55CD078DA4AB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D541907341A33DC15CF85297 /* PBXTargetDependency */,
+			);
+			name = ReadRocketPhonicsUITests;
+			packageProductDependencies = (
+			);
+			productName = ReadRocketPhonicsUITests;
+			productReference = 66645556A8744A59F8FC686D /* ReadRocketPhonicsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5AF3D808477E8181881F25A9 /* ReadRocketPhonics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CFB278C61A20C45DAF19922 /* Build configuration list for PBXNativeTarget "ReadRocketPhonics" */;
+			buildPhases = (
+				B800777C064DDD9377C453E3 /* Sources */,
+				2EBA4FEAA99E949BA363DACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReadRocketPhonics;
+			packageProductDependencies = (
+			);
+			productName = ReadRocketPhonics;
+			productReference = EF028187CD2CC0731E131522 /* ReadRocketPhonics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE95330BABA412692BA2BC7B /* ReadRocketPhonicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7712981842A6404844A20C79 /* Build configuration list for PBXNativeTarget "ReadRocketPhonicsTests" */;
+			buildPhases = (
+				8F929751D3E4BFB27EFA821C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99C25EA6496891B21AA1D124 /* PBXTargetDependency */,
+			);
+			name = ReadRocketPhonicsTests;
+			packageProductDependencies = (
+			);
+			productName = ReadRocketPhonicsTests;
+			productReference = 7AEA8D8F684FDDF3C8765C7A /* ReadRocketPhonicsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7454EB2AA31CCA0910382260 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0062548BCB47099368534C93 = {
+						DevelopmentTeam = HXN23BFRR2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5AF3D808477E8181881F25A9;
+					};
+					5AF3D808477E8181881F25A9 = {
+						DevelopmentTeam = HXN23BFRR2;
+						ProvisioningStyle = Automatic;
+					};
+					DE95330BABA412692BA2BC7B = {
+						DevelopmentTeam = HXN23BFRR2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4A178F883150387A63187210 /* Build configuration list for PBXProject "ReadRocketPhonics" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 9F5168FC142E85F460C4A362;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 80A21FAC628F9141C3DF1E45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AF3D808477E8181881F25A9 /* ReadRocketPhonics */,
+				DE95330BABA412692BA2BC7B /* ReadRocketPhonicsTests */,
+				0062548BCB47099368534C93 /* ReadRocketPhonicsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EBA4FEAA99E949BA363DACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D832FE5E324418779B7F769 /* Assets.xcassets in Resources */,
+				DFB2952B7D848D80A877E640 /* mnem_a.png in Resources */,
+				BD9C5040E73E91971DF3BA85 /* mnem_b.png in Resources */,
+				D10B0431A815B66B298E791C /* mnem_c.png in Resources */,
+				7DB126B7F5052C04E789DE5E /* mnem_d.png in Resources */,
+				B3609A67E72F7A61D93F4422 /* mnem_e.png in Resources */,
+				D8EC03EE584F20CFE5251FCC /* mnem_f.png in Resources */,
+				71C4D26B01C746F654A56295 /* mnem_g.png in Resources */,
+				BCA271F6CC613D51B23F2950 /* mnem_h.png in Resources */,
+				DC8679037332D3402FF8FAF2 /* mnem_i.png in Resources */,
+				A9001350FB21913660C7C7E0 /* mnem_j.png in Resources */,
+				A19862F8B5DCDDD0C21430A7 /* mnem_k.png in Resources */,
+				114E2007F7C61E0847DF8C30 /* mnem_l.png in Resources */,
+				8415DB062740D75B812641C1 /* mnem_m.png in Resources */,
+				3C1549C16CCA24C479519892 /* mnem_n.png in Resources */,
+				C55D4B18A9535C8C6665965A /* mnem_o.png in Resources */,
+				C4F1D7B279B9B9E2DE6E2894 /* mnem_p.png in Resources */,
+				5AA0F691270B52BD5605FDB3 /* mnem_q.png in Resources */,
+				A8859AEA5268181C29B9F3F8 /* mnem_r.png in Resources */,
+				91775E41605066FFD2B96BF5 /* mnem_s.png in Resources */,
+				C424117395B64FA4CE196902 /* mnem_u.png in Resources */,
+				9FBFBCF9725494BDED936B86 /* mnem_v.png in Resources */,
+				A487055D99FC4CCC0AF73BED /* mnem_w.png in Resources */,
+				B3F668EFCC56DD9214773A6A /* mnem_x.png in Resources */,
+				2A6A33DDE83EE0DA13F6636A /* mnem_y.png in Resources */,
+				A9C9EDC20B33EA3C7A23903B /* music_beach.m4a in Resources */,
+				B98312B10F68BB75516A64E2 /* music_farm.m4a in Resources */,
+				8D5351235213C750C487183F /* music_flow.m4a in Resources */,
+				B93698278C146EB13D4B500E /* phoneme_a.wav in Resources */,
+				13A8FA77FA53761B85702086 /* phoneme_aw.wav in Resources */,
+				91C13476C5FA4E695E192D16 /* phoneme_b.wav in Resources */,
+				FB86F9D66BA3DD4DF4D64742 /* phoneme_c.wav in Resources */,
+				2A6748F67503EC06378B7336 /* phoneme_d.wav in Resources */,
+				7E0D69F373299056E9D5BC68 /* phoneme_de_a_long.wav in Resources */,
+				734C358BCD53FA0D404C07EE /* phoneme_de_e_long.wav in Resources */,
+				085D9FF63F5C17A2E4C1E7F6 /* phoneme_de_er.wav in Resources */,
+				4CA9C4CF014FF9F6E2BB305C /* phoneme_de_i_long.wav in Resources */,
+				E5FFC5AA0F1725E0A8A985D8 /* phoneme_de_o_long.wav in Resources */,
+				A156AC5F6057E0C98D37E33C /* phoneme_de_u_long.wav in Resources */,
+				2FB435BD9C9D92446A33267B /* phoneme_de_u_short.wav in Resources */,
+				B9F2395A7C6AB8DFFED53057 /* phoneme_e.wav in Resources */,
+				594BFFEF4052DBC67A4A7B56 /* phoneme_el_a.wav in Resources */,
+				6092B128FB4F7F66209B3625 /* phoneme_el_dh.wav in Resources */,
+				2652B2DA51EAB1C382000503 /* phoneme_el_e.wav in Resources */,
+				491C50D73EBB3618A5B309C1 /* phoneme_el_gh.wav in Resources */,
+				B9AF84690EA2221B79BDF7C7 /* phoneme_el_i.wav in Resources */,
+				BFC40CD812C36229E5294FC7 /* phoneme_el_o.wav in Resources */,
+				D9C20501126251B1E2A3B182 /* phoneme_el_ps.wav in Resources */,
+				87D7ED3C17F0F1201C6A09A6 /* phoneme_el_th.wav in Resources */,
+				7406CC4BA25407A3A9C0D02F /* phoneme_el_x.wav in Resources */,
+				B45F5DC36E42892C60ABF629 /* phoneme_es_ny.wav in Resources */,
+				80CB7999BB777BEB878F8C31 /* phoneme_es_r.wav in Resources */,
+				1514A641CE8398FCA0872CAC /* phoneme_es_u.wav in Resources */,
+				773A638FE1CC2CB7BEA84881 /* phoneme_es_y.wav in Resources */,
+				EC23807D540CEE1004031BF2 /* phoneme_f.wav in Resources */,
+				F42579C20064841587133F93 /* phoneme_fr_an.wav in Resources */,
+				4D2BE70238CB6004ACCD39CC /* phoneme_fr_in.wav in Resources */,
+				95C613B8F8B48779E390E504 /* phoneme_fr_oe.wav in Resources */,
+				11264E725B9D3DBB871B8EDE /* phoneme_fr_on.wav in Resources */,
+				098CF6C1377CAAEA232832F5 /* phoneme_fr_wa.wav in Resources */,
+				EB5F87FA663B3B9B1DF0EB84 /* phoneme_g.wav in Resources */,
+				01C8C9592BCC164BF4EA08EE /* phoneme_h.wav in Resources */,
+				6552583B0102779D8E78FD00 /* phoneme_i.wav in Resources */,
+				90B2FE20B1F3EBD8F25EA5D0 /* phoneme_j.wav in Resources */,
+				93769BE3B39286818D90AB58 /* phoneme_k.wav in Resources */,
+				6AF938750D7ABA27090026E4 /* phoneme_kv.wav in Resources */,
+				8DE2D4E560E7B06A31731937 /* phoneme_l.wav in Resources */,
+				0A285ABD0EC57EB95FB7B370 /* phoneme_m.wav in Resources */,
+				734B0ACFE29F6413ECC920EF /* phoneme_n.wav in Resources */,
+				28125A4F80D6E67D4B7B04B6 /* phoneme_o.wav in Resources */,
+				F0C6F2581B90FAF705B4CB42 /* phoneme_oe.wav in Resources */,
+				985150858D5DB64AFF8412BF /* phoneme_p.wav in Resources */,
+				5E6E05951B2467ABCCAEE6C2 /* phoneme_pt_aej.wav in Resources */,
+				C9A54F6F0A10F340E333B4AA /* phoneme_pt_aow.wav in Resources */,
+				95AFD27C7A2F5C47B0738801 /* phoneme_qu.wav in Resources */,
+				07B3B59F782B2EC508884789 /* phoneme_r.wav in Resources */,
+				41B8AD4D48E7B1A02A5C3107 /* phoneme_rr.wav in Resources */,
+				63025AD8D90F85A5EDFAC213 /* phoneme_s.wav in Resources */,
+				3CC4A3B226137EE5CD2BE7F2 /* phoneme_schwa.wav in Resources */,
+				AF8B3DED3642B9F8D1C7F378 /* phoneme_sh.wav in Resources */,
+				8B5C016562EA8AB9477F05D2 /* phoneme_t.wav in Resources */,
+				C1923801AF3D1B89DD5911D8 /* phoneme_ts.wav in Resources */,
+				234B8FB6087E288907B7A823 /* phoneme_u.wav in Resources */,
+				037B7D28B8F89CC8D12FA17F /* phoneme_ue.wav in Resources */,
+				FFDC988E351CA80F9D42200F /* phoneme_uk_air.wav in Resources */,
+				2CCF743526AE3A8B5B3C755B /* phoneme_uk_ar.wav in Resources */,
+				EAEE5D5457E0014ED19F600F /* phoneme_uk_ear.wav in Resources */,
+				B87D9B567B707522F627C0D6 /* phoneme_uk_er.wav in Resources */,
+				79851537EBE30D9E4C15E927 /* phoneme_uk_o.wav in Resources */,
+				2B4A93181D12DB0047667B65 /* phoneme_uk_oa.wav in Resources */,
+				E5185C82828030EEFD06FC5F /* phoneme_uk_or.wav in Resources */,
+				320AAE263BA57465CE5E0A11 /* phoneme_uk_ure.wav in Resources */,
+				5582E257AED0DB2EB4966E7A /* phoneme_v.wav in Resources */,
+				5DF70D11BEF98ADBE515784A /* phoneme_w.wav in Resources */,
+				14E019A08CD677ACB24DD310 /* phoneme_x.wav in Resources */,
+				B7709D543375AA04A0927801 /* phoneme_y.wav in Resources */,
+				19615DF6C41DF0A5FA641AC1 /* phoneme_z.wav in Resources */,
+				BDA9E5C7864FB910CE2FE7F0 /* phoneme_zh.wav in Resources */,
+				4F03D5B20220156DEEDE26B8 /* ui_belly.wav in Resources */,
+				B4A0CBC2C2D867266F54D649 /* ui_blastoff.wav in Resources */,
+				B0D9A3ABE7BC8CF4F19179C1 /* ui_diaper.wav in Resources */,
+				EBB9EA6D42FE456E77679CC8 /* ui_greatjob.wav in Resources */,
+				1F1D32D85D8E7A2F40758345 /* ui_sayitwithme.wav in Resources */,
+				706DBDE996C3341E4913C924 /* ui_tryagain.wav in Resources */,
+				3550E468ABCF213D8BB76416 /* ui_whoreading.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B6BCCD0D44A55CD078DA4AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB63F891BA48A54026A3F93 /* ReadRocketUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F929751D3E4BFB27EFA821C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1533D83958CE75A58901C106 /* CurriculumTests.swift in Sources */,
+				56FF70CA0D5E1AC83D213E73 /* GreekLandTests.swift in Sources */,
+				0F2CDE0F2ED70E92BDBD840A /* LanguagePacksTests.swift in Sources */,
+				E2B37ADC15F203D2CF5146D9 /* PhonicsTests.swift in Sources */,
+				DD9796CE1818FFB3DFB54E75 /* PlacementTests.swift in Sources */,
+				4946C22E6F61E822A7C240C4 /* ProfileStoreTests.swift in Sources */,
+				03E55EC51D75F2222C40973A /* SoundFXTests.swift in Sources */,
+				840B6E79A40DF2010311B033 /* SpanishLandTests.swift in Sources */,
+				3BEB83BA24DC59F0E57E900B /* WorldLessonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B800777C064DDD9377C453E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D28FE1FFA7BE219FD98F58E /* AppEnv.swift in Sources */,
+				0498B6398708B9B130C0AC1F /* AudioBank.swift in Sources */,
+				43B332A00E6043418951A2BF /* Blending.swift in Sources */,
+				CC62E170A33011742A1F0B78 /* BookReaderView.swift in Sources */,
+				3BFDF6FEA104A60E8EA5AE15 /* CelebrationView.swift in Sources */,
+				2272DE949E3C159E11C691C3 /* ContentView.swift in Sources */,
+				4286CCE22579708AC2CD83BD /* Critter.swift in Sources */,
+				D492CCDC10A73921F556E19B /* Curriculum.swift in Sources */,
+				C8764A4A8A66213A726729DB /* EnglishUKLand.swift in Sources */,
+				C81740F9124D0830763FDF1B /* EnglishUKWords.swift in Sources */,
+				8D4D202699EEEC317E509851 /* Flex.swift in Sources */,
+				5BAF26C1B54A31D9F41B56C5 /* FrenchLand.swift in Sources */,
+				C2BEB620441A3EC57B87F10C /* FrenchWords.swift in Sources */,
+				A76D6F6ED0EF1F107353C904 /* GermanLand.swift in Sources */,
+				1DFFBD17895D780C9AA4EABA /* GermanWords.swift in Sources */,
+				C4EAD89D71C09F7B64AF72E4 /* GreekLand.swift in Sources */,
+				F19B3EC2BDC55E6946EEC858 /* GreekWords.swift in Sources */,
+				590A667EAE3E0A2D092B67B1 /* LanguagePack.swift in Sources */,
+				A7AA48FDD4EB626CE54D81BE /* LessonViewModel.swift in Sources */,
+				1CC471CF0C80B58AA1ABF45B /* LetterLand.swift in Sources */,
+				942FA1A72CB63E2017E5E3AC /* LetterStrokes.swift in Sources */,
+				99E6EC64D94ADB00E19D5DF9 /* LibraryView.swift in Sources */,
+				57EFFAC973A736579D929034 /* MapView.swift in Sources */,
+				4CA4AD70CCA9A3C4CC99CA21 /* MnemonicArt.swift in Sources */,
+				6A06538E882E28DA4F5457C7 /* MosaicView.swift in Sources */,
+				12417667C85AB3C8FE94F05B /* MouthView.swift in Sources */,
+				04D082B7F27B6BF9803D854F /* MusicPlayer.swift in Sources */,
+				E84AF286B967336A9E685A54 /* ParentProgressView.swift in Sources */,
+				0243D3998F076F9B6E70AAA9 /* ParentalGateView.swift in Sources */,
+				96FCD252DEEDC4DF8F5D80CC /* Phonics.swift in Sources */,
+				679C4FE41CE24E5462934BEB /* Phonology.swift in Sources */,
+				BA9332698C3997A430DEE871 /* Placement.swift in Sources */,
+				7CB51DDD9D240F1F4CD628CA /* PlacementView.swift in Sources */,
+				CADB3BB58078F8CA25F20CCA /* PortugueseLand.swift in Sources */,
+				563235CA77D27CD798AF9461 /* PortugueseWords.swift in Sources */,
+				5618A03E001C254FD646DE85 /* PosterScenes.swift in Sources */,
+				F449C790E13D0438A5D9B919 /* ProfileStore.swift in Sources */,
+				8CC6C930556C232202125121 /* ReadRocketApp.swift in Sources */,
+				8485C51F95904051935AA7DC /* ReviewLessons.swift in Sources */,
+				FF852761E8B4D30E6BDF6827 /* Reward3DView.swift in Sources */,
+				828F0C1CFF3E8D53C18E4960 /* SliceSceneView.swift in Sources */,
+				512C95694339515FECE22F12 /* SoundCheckView.swift in Sources */,
+				B0AE207A357C700D9112D2A4 /* SoundFX.swift in Sources */,
+				25D1156D5DC5F7524756CAE3 /* SpanishLand.swift in Sources */,
+				3EE4693BB9EF8036ED3BEC9F /* SpanishWords.swift in Sources */,
+				3E95EC605C7B8A7BCB6D5CCC /* SpeechManager.swift in Sources */,
+				C1DCAAC50C1419819346484A /* StickerBookView.swift in Sources */,
+				A3B2F720B5689C55D19CDADB /* StickerGiftView.swift in Sources */,
+				F1EA93AFD88862E74D4D7E0C /* Theme.swift in Sources */,
+				E789A9F3EABC35146D5799AA /* TracingView.swift in Sources */,
+				3E34435D16E1819CA099BC3D /* WordFamilies.swift in Sources */,
+				12E0A90AD2804A8336056330 /* WorldLessonView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99C25EA6496891B21AA1D124 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AF3D808477E8181881F25A9 /* ReadRocketPhonics */;
+			targetProxy = BB5CB0DC9B7876ED27AF67BF /* PBXContainerItemProxy */;
+		};
+		D541907341A33DC15CF85297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AF3D808477E8181881F25A9 /* ReadRocketPhonics */;
+			targetProxy = 5345969CBA8BCEC62323DBD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1701852050B01F9617485D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.lorehex.readrocketphonics;
+				PRODUCT_NAME = ReadRocketPhonics;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		1712D14E65D73FA03DDE9EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = HXN23BFRR2;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3F6BA8FFB6A8463CC8B7E759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.lorehex.readrocketphonics;
+				PRODUCT_NAME = ReadRocketPhonics;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		41276E9646F7B831A375CD98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.lorehex.readrocketphonics.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReadRocketPhonics;
+			};
+			name = Release;
+		};
+		6B81BC2872840481CB299DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.lorehex.readrocketphonics.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReadRocketPhonics;
+			};
+			name = Debug;
+		};
+		6E3B958701FE42CE850989BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.lorehex.readrocketphonics.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadRocketPhonics.app/ReadRocketPhonics";
+			};
+			name = Release;
+		};
+		B2848047A6A6A825A00EDC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.lorehex.readrocketphonics.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadRocketPhonics.app/ReadRocketPhonics";
+			};
+			name = Debug;
+		};
+		F7AC0A201372569D8ED6CA04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = HXN23BFRR2;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A178F883150387A63187210 /* Build configuration list for PBXProject "ReadRocketPhonics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1712D14E65D73FA03DDE9EC1 /* Debug */,
+				F7AC0A201372569D8ED6CA04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6CFB278C61A20C45DAF19922 /* Build configuration list for PBXNativeTarget "ReadRocketPhonics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6BA8FFB6A8463CC8B7E759 /* Debug */,
+				1701852050B01F9617485D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7712981842A6404844A20C79 /* Build configuration list for PBXNativeTarget "ReadRocketPhonicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2848047A6A6A825A00EDC1B /* Debug */,
+				6E3B958701FE42CE850989BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BE16D23625DA4CD170D516F7 /* Build configuration list for PBXNativeTarget "ReadRocketPhonicsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B81BC2872840481CB299DD4 /* Debug */,
+				41276E9646F7B831A375CD98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7454EB2AA31CCA0910382260 /* Project object */;
+}

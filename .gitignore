@@ -1,0 +1,23 @@
+.DS_Store
+
+# Xcode user state and build products
+build/
+DerivedData/
+*.xcarchive
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.mobileprovision
+xcuserdata/
+*.xcuserstate
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Local App Store Connect operations and caches
+tools/
+__pycache__/
+*.pyc
+
